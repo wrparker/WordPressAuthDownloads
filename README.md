@@ -13,7 +13,7 @@ PHP snippet which streams file from a localhost-only accessible directory to aut
 * Change the variable $protected_path to the path of the directory created in #1 in protected_user_files.php
 
 * Change the variable $wp_url to WordPress Address (URL) -- where your WordPress core files reside.
-**Able to be located on the Settings->General screen
+  * Able to be located on the Settings->General screen
 
 * Change $web_name to the name of your site.
 
