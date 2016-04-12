@@ -4,15 +4,18 @@ PHP snippet which streams file from a localhost-only accessible directory to aut
 ##Instructions
 * Create a directory to serve as the "secret_files" directory that the web server can access.
 
-* Place the .htaccess file in the directory created in 1.  On line 4 fill the quotation marks with the full path to the secret directory.  **Include trailing slash /**
+* Place the .htaccess file in the directory created in 1.  On line 4 fill the quotation marks with the full path to the secret directory.  
+  *Include trailing slash '/'**
 ```
 <Directory "/var/www/secret_files/">
 ```
 * Place the protected_user_files.php in the same directory as the wp-load.php file in your wordpress site (the directory with all core WordPress files).
 
-* Change the variable $protected_path to the path of the directory created in #1 in protected_user_files.php.  **Include trailing slash '/'**
+* Change the variable $protected_path to the path of the directory created in #1 in protected_user_files.php.  
+  *Include trailing slash '/'**
 
-* Change the variable $wp_url to the site's "WordPress Address (URL)" --This is where the WordPress core files reside.  **Include trailing slash '/'**
+* Change the variable $wp_url to the site's "WordPress Address (URL)" --This is where the WordPress core files reside.  
+  *Include trailing slash '/'**
   * Able to be located on the Settings->General screen
 
 * Change $web_name to the name of the site.
