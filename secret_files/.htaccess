@@ -1,0 +1,7 @@
+#PUT FILL PATH OF DIRECTORY BELOW
+#Example:
+#<Directory "/var/www/secret_files/">
+<Directory "">
+    Require all granted
+    Require ip 127.0.0.1
+</Directory>
