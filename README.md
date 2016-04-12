@@ -26,7 +26,7 @@ PHP script which streams file from a localhost-only accessible directory to auth
 
 * Copy/Paste the link generated for the corresponding file name.  The script will use the name $_GET variable to stream the file to logged in users on the website.
 
-* Note: This will work for any logged in WordPress user.  There is no distinction in user privillege level.
+* Note: This will work for any logged in WordPress user (specific to the site).  There is no distinction in user privillege level.
 
 Contact W. Ryan Parker for comments or questions (w.ryan.parker@gmail.com)
 
