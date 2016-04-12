@@ -12,7 +12,7 @@
 #Path of Files that are protected by .htaccess
 $protected_path = "/var/www/secret_files/";
 
-#Wp-URL, URL path of your wordpress site.  (Url where index.php resides)
+#Wp-URL--Url where Wordpress Core Files reside; directory this file is uploaded
 $wp_url = "http://example.com/wpsite/";
 
 #Website Name
