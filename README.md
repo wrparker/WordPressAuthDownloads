@@ -1,5 +1,5 @@
 # WordPressAuthDownloads
-PHP snippet which streams file from a localhost accessible directory to authenticated wordpress users.
+PHP snippet which streams file from a localhost-only accessible directory to authenticated wordpress users.
 
 ##Instructions
 * Create a directory to serve as your "secret_files" directory that the web server can access.
