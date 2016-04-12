@@ -14,5 +14,5 @@ PHP snippet which streams file from a localhost accessible directory to authenti
 * Upload files using a means of file transfers to your secret directory
 * Go to $wp_url/protected_user_files.php and you will see a table of file names and the associated link which will cause them to be able to be downloaded by users logged in on your WordPress site.
 
-Contact W. Ryan Parker for Concers or questions (w.ryan.parker@gmail.com)
+Contact W. Ryan Parker for comments or questions (w.ryan.parker@gmail.com)
 
