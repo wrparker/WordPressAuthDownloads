@@ -21,9 +21,9 @@ PHP snippet which streams file from a localhost-only accessible directory to aut
 
 * Go to $wp_url/protected_user_files.php and you will see a table of file names and the associated link which will cause them to be able to be downloaded by users logged in on your WordPress site.  This page will only show for authenticated users on your wordpress site.  
 
-*Copy/Paste the link generated for the corresponding file name.  The script will use the name $_GET variable to stream the file to logged in users on your website.
+* Copy/Paste the link generated for the corresponding file name.  The script will use the name $_GET variable to stream the file to logged in users on your website.
 
-*Note: This will work for any logged in WordPress user.  There is no distinction in user privillege level.
+* Note: This will work for any logged in WordPress user.  There is no distinction in user privillege level.
 
 Contact W. Ryan Parker for comments or questions (w.ryan.parker@gmail.com)
 
