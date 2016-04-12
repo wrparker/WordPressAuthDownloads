@@ -1,9 +1,9 @@
 <?php
-##############################################################################
-#Authored by W. Ryan Parker for secure file sharing via wordpress login      #
-# Copyright 2016 W. Ryan Parker                                              #
-#      You must place this file in the /wpsite/ directory!       
-##############################################################################
+################################################################################
+#Authored by W. Ryan Parker for secure file download links via wordpress login #
+# Copyright 2016 W. Ryan Parker                                                #
+#      You must place this file in the /wpsite/ directory!                     #
+################################################################################
 
 #####################
 #  Custom Variables #
