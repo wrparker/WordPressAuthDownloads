@@ -12,7 +12,7 @@ PHP snippet which streams file from a localhost accessible directory to authenti
 * Change the variable $wp_url to the URL of the root of your wordpress site.  (You should be able to go to the $wp_url/protected_user_files.php)
 * Change $web_name to the name of your site.
 * Upload files using a means of file transfers to your secret directory
-* Go to $wp_url/protected_user_files.php and you will see a table of file names and the associated link which will cause them to stream.
+* Go to $wp_url/protected_user_files.php and you will see a table of file names and the associated link which will cause them to be able to be downloaded by users logged in on WordPress.
 
 Contact W. Ryan Parker for Concers or questions (w.ryan.parker@gmail.com)
 
