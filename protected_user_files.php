@@ -51,12 +51,19 @@ if(isset($_GET["name"])){
 else if($current_user->user_login){
 	echo "<h1><center>".$web_name." Authorized Link Access</center></h1>";
 	echo "<B> NOTE***</b> Files may not contain anything but alphanumeric characters and underscores or else they wont be streamed properly i.e NO SPACES or +_)(*&^%$#@!}{ etc.... <br>";
+    echo "<B>Red Higlighted</B> Files need to be renamed to conform with naming standards listed above.";
 	echo "<table border='1'><tr><td>Name</td><td>Link</td></tr>";
 	$dir = new DirectoryIterator($protected_path);
 	foreach ($dir as $fileinfo) {
 	    if (!$fileinfo->isDot()) {
             if(substr($fileinfo->getFilename(),0,1) != '.'){
-                echo "<tr><td>".$fileinfo->getFilename()."</td><td>".$wp_url."protected_user_files.php?name=".$fileinfo->getFilename()."</td></tr>";
+                if(strcmp($fileinfo->getFilename(), sanitize($fileinfo->getFilename())) != 0){
+                    echo "<tr bgcolor='red'>";
+                }
+                else{
+                    echo "<tr>";
+                }
+                echo "<td>".$fileinfo->getFilename()."</td><td>".$wp_url."protected_user_files.php?name=".$fileinfo->getFilename()."</td></tr>";
             }
 	    }
 	}
